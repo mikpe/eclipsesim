@@ -1,0 +1,10 @@
+%%% -*- erlang -*-
+
+{application, eclipsesim,
+ [{description, "Simulator for the DG Eclipse mini-computer"},
+  {vsn, git},
+  {registered, []},
+  {applications, [kernel, stdlib]},
+  {env, []},
+  {modules, []}
+ ]}.
